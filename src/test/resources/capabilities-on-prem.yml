@@ -1,0 +1,9 @@
+testEndpoint: https://uk.gymshark.com
+
+driverType: onPremDriver
+
+onPremDriver:
+  platforms:
+    - name: chrome
+      driverPath: /src/test/resources/chromedriver
+      capabilities:

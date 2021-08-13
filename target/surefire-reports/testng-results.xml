@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-13T15:04:45 BST" name="BDD Test Suite" finished-at="2021-08-13T15:05:20 BST" duration-ms="35238">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunWebDriverCucumberTests.feature(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper,com.gymshark.core.ManagedWebDriver)[pri:0, instance:com.gymshark.tests.RunWebDriverCucumberTests@31304f14]" name="feature" class="com.gymshark.tests.RunWebDriverCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-08-13T15:04:45 BST" name="Cucumber Tests" finished-at="2021-08-13T15:05:20 BST" duration-ms="35238">
+      <class name="com.gymshark.tests.RunWebDriverCucumberTests">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.gymshark.tests.RunWebDriverCucumberTests@31304f14]" started-at="2021-08-13T15:04:45 BST" name="setUpClass" finished-at="2021-08-13T15:04:46 BST" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper,com.gymshark.core.ManagedWebDriver)[pri:0, instance:com.gymshark.tests.RunWebDriverCucumberTests@31304f14]" started-at="2021-08-13T15:04:46 BST" name="feature" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2021-08-13T15:05:20 BST" duration-ms="34703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for an item and add 2 items to the basket via basket"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Check an item can be searched and added to the basket]"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.gymshark.core.ManagedWebDriver@1f91e974]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper,com.gymshark.core.ManagedWebDriver)[pri:0, instance:com.gymshark.tests.RunWebDriverCucumberTests@31304f14]" started-at="2021-08-13T15:04:46 BST" name="feature" description="Runs Cucumber Feature" data-provider="scenarios" finished-at="2021-08-13T15:05:19 BST" duration-ms="33244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for an item and add to the basket via quick add"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Check an item can be searched and added to the basket]"]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.gymshark.core.ManagedWebDriver@3ec7e33c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.gymshark.tests.RunWebDriverCucumberTests@31304f14]" started-at="2021-08-13T15:05:20 BST" name="tearDownClass" finished-at="2021-08-13T15:05:20 BST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.gymshark.tests.RunWebDriverCucumberTests -->
+    </test> <!-- Cucumber Tests -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>

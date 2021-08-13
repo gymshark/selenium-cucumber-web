@@ -1,0 +1,309 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-13T14:04:46.193Z",
+        "line": 3,
+        "name": "Search for an item and add to the basket via quick add",
+        "description": "",
+        "id": "check-an-item-can-be-searched-and-added-to-the-basket;search-for-an-item-and-add-to-the-basket-via-quick-add",
+        "after": [
+          {
+            "result": {
+              "duration": 1247623000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.gymshark.stepdefs.WebDriverHooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8064428000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The Gymshark homepage has successfully loaded",
+            "match": {
+              "location": "com.gymshark.stepdefs.CommonSteps.theGymsharkHomepageHasSuccessfullyLoaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2438006000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search for an item I should see a list of matching search results",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.theSearchButtonIsClicked()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4145415000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I will choose an item and size which will get added to the cart",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iHoverOverAnItemTheQuickAddSizeCtaWillAppear()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4434889000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The cart has opened then I will click on checkout button",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.theCartHasOpenedThenIWillClickOnCheckoutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36930000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I will be redirected to the information page",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iWillBeRedirectedToTheInformationPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8092530000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click continue to shipping after filling out the mandatory fields on information",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iClickContinueToShippingAfterFillingOutTheMandatoryFieldsOnInformation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66389000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will be taken to the shipping page",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iWillBeTakenToTheShippingPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4067890000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the continue to payment button",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iClickOnTheContinueToPaymentButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78834000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will be taken to the payment page",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iWillBeTakenToThePaymentPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-08-13T14:04:46.193Z",
+        "line": 15,
+        "name": "Search for an item and add 2 items to the basket via basket",
+        "description": "",
+        "id": "check-an-item-can-be-searched-and-added-to-the-basket;search-for-an-item-and-add-2-items-to-the-basket-via-basket",
+        "after": [
+          {
+            "result": {
+              "duration": 1243257000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.gymshark.stepdefs.WebDriverHooks.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8092664000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "The Gymshark homepage has successfully loaded",
+            "match": {
+              "location": "com.gymshark.stepdefs.CommonSteps.theGymsharkHomepageHasSuccessfullyLoaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2736000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I search for an item I should see a list of matching search results",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.theSearchButtonIsClicked()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4088909000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I will choose an item and size which will get added to the cart",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iHoverOverAnItemTheQuickAddSizeCtaWillAppear()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55568000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The minicart is open and i click on the x button",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.theMiniCartIsOpenAndIClickOnTheXButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16315000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The minicart will close",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.theMiniCartWillClose()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2872679000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I will add another item which will get added to the cart",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iWillAddAnotherItemWhichWillGetAddedToTheCart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4513480000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The cart has opened then I will click on checkout button",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.theCartHasOpenedThenIWillClickOnCheckoutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92293000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I will be redirected to the information page",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iWillBeRedirectedToTheInformationPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7373827000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click continue to shipping after filling out the mandatory fields on information",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iClickContinueToShippingAfterFillingOutTheMandatoryFieldsOnInformation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164416000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I will be taken to the shipping page",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iWillBeTakenToTheShippingPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2854180000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on the continue to payment button",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iClickOnTheContinueToPaymentButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 74238000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I will be taken to the payment page",
+            "match": {
+              "location": "com.gymshark.stepdefs.search.Search.iWillBeTakenToThePaymentPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check an item can be searched and added to the basket",
+    "description": "",
+    "id": "check-an-item-can-be-searched-and-added-to-the-basket",
+    "keyword": "Feature",
+    "uri": "classpath:features/search.feature",
+    "tags": []
+  }
+]
