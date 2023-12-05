@@ -21,7 +21,7 @@
         <allure.version>2.10.0</allure.version>
 		<slf4j.version>1.7.30</slf4j.version>
 		<cucumber.version>6.9.1</cucumber.version>
-		<logback.version>1.2.3</logback.version>
+		<logback.version>1.2.13</logback.version>
 		<testng.version>7.4.0</testng.version>
 		<cucumber.version>6.10.4</cucumber.version>
 		<jackson.version>2.12.2</jackson.version>
